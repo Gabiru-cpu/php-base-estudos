@@ -16,7 +16,7 @@ $estoques = $conn->query("SELECT * FROM estoque");
     <link rel="stylesheet" href="../assets/css/estilo.css">
 </head>
 <body>
-    <p><a href="../models/cupons.php">➕ Cadastrar novo cupom</a></p>
+    <p><a href="cupons.php">➕ Cadastrar novo cupom</a></p>
 
     <h2>Cadastrar Produto</h2>
     <form action="salvar_produto.php" method="post">

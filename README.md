@@ -11,7 +11,7 @@ Este projeto é um sistema de loja virtual desenvolvido em PHP com estrutura de 
 ├── controllers/ # Controladores (em breve)
 ├── models/ # Lógica de negócio (funções PHP)
 │ └── cupons.php
-├── views/ # Telas (interfaces) do sistema)
+├── pages/ # Telas (interfaces) do sistema)
 │ ├── index.php
 │ ├── cupons.php
 │ ├── produtos.php
@@ -22,25 +22,25 @@ Este projeto é um sistema de loja virtual desenvolvido em PHP com estrutura de 
 ## 🖥️ Telas do Sistema
 
 ### • Tela de Cupons
-- 📄 **Arquivo:** `views/cupons.php`
+- 📄 **Arquivo:** `pages/cupons.php`
 - 🔧 Funções:
   - Criar cupons com validade e valor de desconto
   - Listar todos os cupons cadastrados
 
 ### • Tela de Produtos
-- 📄 **Arquivo:** `views/produtos.php`
+- 📄 **Arquivo:** `pages/produtos.php`
 - 🔧 Funções:
   - Cadastro de novos produtos
   - Edição de produtos existentes
 
 ### • Tela do Cliente
-- 📄 **Arquivo:** `views/cliente.php`
+- 📄 **Arquivo:** `pages/cliente.php`
 - 🔧 Funções:
   - Exibição dos produtos disponíveis
   - Adição ao carrinho de compras
 
 ### • Tela de Compra
-- 📄 **Arquivo:** `views/compra.php`
+- 📄 **Arquivo:** `pages/compra.php`
 - 🔧 Funções:
   - Confirmação do pedido
   - Formulário com:

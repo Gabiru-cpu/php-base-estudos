@@ -31,7 +31,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         Subtotal Mínimo: <input type="number" name="subtotal_minimo" step="0.01" required><br>
         <button type="submit">Salvar Cupom</button>
     </form>
-    <a href="../views/index.php" style="text-decoration: none;"><button type="button">Voltar</button></a>
+    <a href="index.php" style="text-decoration: none;"><button type="button">Voltar</button></a>
 
 
     

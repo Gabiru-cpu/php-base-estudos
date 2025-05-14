@@ -51,5 +51,5 @@ try {
 </head>
 <body>
     <br><br>
-    <a href="../views/index.php" style="text-decoration: none;"><button type="button">Voltar</button></a>
+    <a href="index.php" style="text-decoration: none;"><button type="button">Voltar</button></a>
 </body>
