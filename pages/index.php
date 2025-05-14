@@ -152,7 +152,7 @@ $estoques = $conn->query("SELECT * FROM estoque");
 
     <div id="resultado-cep" style="margin-top: 15px;"></div>
 
-    <form action="../controllers/enviar_email.php" method="post">
+    <form action="enviar_email.php" method="post">
         <label>Seu e-mail:</label>
         <input type="email" name="email" required>
         <button type="submit">Receber Boas-vindas</button>
