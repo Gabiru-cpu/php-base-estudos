@@ -3,22 +3,22 @@
 Este projeto é um sistema de loja virtual desenvolvido em PHP com estrutura de pastas organizada por **MVC** (Model-View-Controller). O sistema simula a compra de produtos com carrinho de compras, aplicação de cupons de desconto, cálculo de frete por CEP e envio de email com confirmação da compra.
 
 ## 📁 Estrutura de Pastas
-
+```
 /loja
 ├── assets/ # Arquivos estáticos (CSS, JS, imagens)
 ├── config/ # Configurações e conexões com o banco de dados
 │ └── conexao.php
-├── controllers/
+├── controllers/ # Controladores (em breve)
 ├── models/ # Lógica de negócio (funções PHP)
 │ └── cupons.php
-├── views/ # Telas (interfaces) do sistema
+├── views/ # Telas (interfaces) do sistema)
 │ ├── index.php
 │ ├── cupons.php
 │ ├── produtos.php
 │ ├── cliente.php
 │ └── compra.php
 └── SQL/ # Scripts de banco de dados
-
+```
 ## 🖥️ Telas do Sistema
 
 ### • Tela de Cupons
