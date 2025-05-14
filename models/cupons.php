@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Cadastro de Produtos</title>
+    <title>Cupons</title>
     <link rel="icon" href="../assets/img/favicon.png" type="image/png">
     <link rel="stylesheet" href="../assets/css/estilo.css">
 </head>

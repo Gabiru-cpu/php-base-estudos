@@ -11,7 +11,7 @@ $estoques = $conn->query("SELECT * FROM estoque");
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Cadastro de Produtos</title>
+    <title>Home | Cadastro de Produtos</title>
     <link rel="icon" href="../assets/img/favicon.png" type="image/png">
     <link rel="stylesheet" href="../assets/css/estilo.css">
 </head>
@@ -151,6 +151,12 @@ $estoques = $conn->query("SELECT * FROM estoque");
     </form>
 
     <div id="resultado-cep" style="margin-top: 15px;"></div>
+
+    <form action="../controllers/enviar_email.php" method="post">
+        <label>Seu e-mail:</label>
+        <input type="email" name="email" required>
+        <button type="submit">Receber Boas-vindas</button>
+    </form>
 
     <script>
     function buscarEndereco() {
